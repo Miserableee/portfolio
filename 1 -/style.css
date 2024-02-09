@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+nav {
+    padding: 25px 148px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+nav .logo {
+    display: flex;
+    gap: 10px;
+}
+
+nav .logo img {
+    width: 40px;
+}
+
+nav .logo a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #313131;
+    font-weight: bold;
+    transition: 3s ease rgba(0, 0, 0, 0.1);
+}
+
+nav .nav-links {
+    display: flex;
+    gap: 16px;
+}
+
+nav .nav-links a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+nav .nav-links a:hover,
+nav .nav-links a.selected {
+    color: #303f9f;
+}
+
+span {
+    color: #1a237e;
+}
+
+.main {
+    display: flex;
+    padding: 80px 148px;
+    font-size: larger;
+}
+
+.main img {
+    height: 320px;
+    width: 320px;
+    margin-left: 100px;
+    border-radius: 80px;
+}
+
+.main button {
+    margin-top: 31px;
+    background: #1a237e;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 16px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+    cursor: pointer;
+}
+
+.main button a {
+    text-decoration: none;
+    color: white;
+}
+
+.main p {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+footer {
+    align-items: center;
+    text-align: center;
+    padding: 20px 148px;
+}
+
+footer i {
+    font-size: 40px;
+}
+
+footer i:hover {
+    color: #1a237e;
+}
+
+footer a {
+    color: black;
+}
+
+.socials {
+    margin-top: 112px;
+    align-items: center;
+}
